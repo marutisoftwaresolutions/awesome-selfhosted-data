@@ -1,0 +1,23 @@
+# https://github.com/awesome-selfhosted/awesome-selfhosted-data
+name: "Inkwell"
+website_url: "https://www.useinkwell.app"
+source_code_url: "https://github.com/marutisoftwaresolutions/inkwell"
+description: "Multi-tenant, themeable blogging platform for writers and teams who value typography and content ownership. Ships as a single .NET binary with a WYSIWYG editor, built-in analytics and newsletters, no telemetry, and no plugin marketplace."
+licenses:
+  - MIT
+platforms:
+  - C#
+  - Docker
+tags:
+  - Blogging Platforms
+```
+
+> **Schema gotchas the linter enforces:** `description` ≤ 250 chars, ends with a period,
+> and must **not** begin with the project name or with "A/An/The" (the one above starts with
+> "Multi-tenant" and ends with a period). `licenses` must match an entry in `licenses.yml`
+> (MIT does). `tags` must match `tags.yml` exactly — "Blogging Platforms" is the correct
+> existing tag. `platforms` must match `platforms.yml` ("C#", "Docker" exist; do not invent
+> ".NET"). If `make` flags the project as too new, add a few more commits / a release tag
+> first and resubmit — maintainers favour maintained projects (v1.0.1 helps here).
+
+---
